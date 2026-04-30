@@ -50,11 +50,7 @@ function Inner() {
       }}>
         {/* Logo */}
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <img 
-  src="/logo-horizontal.svg" 
-  alt="Logo" 
-  style={{ height: 40 }}
-/>
+          <img src="/logo-horizontal.svg" alt="Logo" style={{ height: 40 }}/>
           <div>
             <div style={{ fontSize: 14, fontWeight: 800, color: "#fff", letterSpacing: "-0.02em" }}>Studio App</div>
             <div style={{ fontSize: 9, color: "#6366f1", fontWeight: 700, letterSpacing: "0.1em" }}>PELUQUERÍA</div>
