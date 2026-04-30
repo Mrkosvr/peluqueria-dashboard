@@ -112,3 +112,11 @@ function Inner() {
     </div>
   );
 }
+
+export default function Dashboard() {
+  return (
+    <StoreProvider>
+      <Inner />
+    </StoreProvider>
+  );
+}
